@@ -3,5 +3,7 @@
     "prefix": "",
 
     "errChannel": "",
-    "errMsg": "New Error"
+    "errMsg": "New Error",
+
+    "mongoUrl": ""
 }

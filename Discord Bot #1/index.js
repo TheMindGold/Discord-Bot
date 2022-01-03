@@ -37,6 +37,8 @@ module.exports.Discord = Discord
 module.exports.config = config
 module.exports.SlashCmd = SlashCmd
 
+require('./mongo.js')()
+
 // Command Handler
 fs.readdirSync('./commands').forEach(dir => {
     fs.readdir(`./commands/${dir}`, (err, files) => {
